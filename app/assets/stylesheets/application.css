@@ -1,0 +1,94 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+table.roundedCorners { 
+  /*border: 1px solid DarkOrange;*/
+  border-radius: 20px; 
+  border-spacing: 0;
+  background-color: #4B77BE;
+  color:  #eceef7;
+  }
+table.roundedCorners th{
+	border: 2px solid #eceef7;
+	padding: 20px 30px;
+} 
+table.roundedCorners tr:last-child > td {
+  border-bottom: none;
+  border-color: #3a539b;
+}
+
+
+
+.label {
+  color: white;
+  padding: ;
+   }
+.lbtable {
+	background-color: #4CAF50;
+	padding: 0.6px 30px ;}
+
+.lbtext{background-color: #3a539b;
+	padding: 6px 150px ;
+	border-radius: 20px
+  }
+
+  .lbdate{background-color: white;
+	padding: 6px 40px ;
+	border-radius: 20px;
+	color: #000000;
+	border:2px solid #4B77BE ;
+}
+.lbseacrh{background-color: #4CAF50;
+	padding: 6px 50px ;
+	border-radius: 20px
+}
+.lbopen{background-color: white;
+	padding: 6px 200px ;
+	width: 50%;
+	border-radius: 20px;
+	color: #000000;
+	border:2px solid #4B77BE ;
+}
+
+.circle1 {
+  height: 75px;
+  width: 75px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.input1{
+  height:100px;
+  width: 100px;
+  color:  #eceef7;
+  background-color: #ff5c33;
+  border-radius: 50%;
+  border:10px solid #4B77BE ;
+}
+
+table.roundedtable{
+  border-radius: 20px;
+  border-spacing: 10px;
+  background-color: #4B77BE;
+  color:  #eceef7;
+  padding: 300px 500px;
+}
+table.roundedtable th{
+	border: 2px solid #eceef7;
+	padding: 10px 30px;
+}
+table.roundedtable tr,td{
+	padding: 20px 30px;
+}
