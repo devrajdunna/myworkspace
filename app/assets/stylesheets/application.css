@@ -36,21 +36,29 @@ table.roundedCorners tr:last-child > td {
   padding: ;
    }
 .lbtable {
-	background-color: #4CAF50;
+	background-color: #ff5c33;
 	padding: 0.6px 30px ;}
+.lbtable1 {
+  background-color: #ff5c33;
+  padding: 0.6px 50px ;}
+.lbtable2 {
+  background-color: #ff5c33;
+  padding: 0.6px 40px ;}
 
-.lbtext{background-color: #3a539b;
+
+
+.lbtext{background-color: #ff5c33;
 	padding: 6px 150px ;
 	border-radius: 20px
   }
 
-  .lbdate{background-color: white;
+.lbdate{background-color: white;
 	padding: 6px 40px ;
 	border-radius: 20px;
 	color: #000000;
 	border:2px solid #4B77BE ;
 }
-.lbseacrh{background-color: #4CAF50;
+.lbseacrh{background-color: #ff5c33;
 	padding: 6px 50px ;
 	border-radius: 20px
 }
@@ -83,7 +91,7 @@ table.roundedtable{
   border-spacing: 10px;
   background-color: #4B77BE;
   color:  #eceef7;
-  padding: 300px 500px;
+  padding: 200px 350px;
 }
 table.roundedtable th{
 	border: 2px solid #eceef7;
@@ -91,4 +99,9 @@ table.roundedtable th{
 }
 table.roundedtable tr,td{
 	padding: 20px 30px;
+}
+
+div.dataTable_wapper{
+  width: 800px;
+  margin:0 auto;
 }
