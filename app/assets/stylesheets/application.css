@@ -22,7 +22,7 @@ table.roundedCorners {
   }
 table.roundedCorners th{
 	border: 2px solid #eceef7;
-	padding: 20px 30px;
+	padding: 10px 20px;
 } 
 table.roundedCorners tr:last-child > td {
   border-bottom: none;
@@ -30,22 +30,23 @@ table.roundedCorners tr:last-child > td {
 }
 
 
-
 .label {
-  color: white;
-  padding: ;
-   }
+  color: white;}
+
 .lbtable {
 	background-color: #ff5c33;
-	padding: 0.6px 30px ;}
+	padding: 0.4px 30px ;
+  border:1px solid #eceef7 ;}
+
 .lbtable1 {
   background-color: #ff5c33;
-  padding: 0.6px 50px ;}
+  padding: 0.4px 60px ;
+border:1px solid #eceef7 ;}
+
 .lbtable2 {
   background-color: #ff5c33;
-  padding: 0.6px 40px ;}
-
-
+  padding: 0.4px 40px ;
+ border:1px solid #eceef7 ;}
 
 .lbtext{background-color: #ff5c33;
 	padding: 6px 150px ;
@@ -58,32 +59,32 @@ table.roundedCorners tr:last-child > td {
 	color: #000000;
 	border:2px solid #4B77BE ;
 }
-.lbseacrh{background-color: #ff5c33;
+.lbseacrh{background-color: #4B77BE;
 	padding: 6px 50px ;
 	border-radius: 20px
 }
 .lbopen{background-color: white;
-	padding: 6px 200px ;
-	width: 50%;
+	padding: 6px 100px ;
 	border-radius: 20px;
-	color: #000000;
+	color:#4B77BE;
 	border:2px solid #4B77BE ;
 }
 
-.circle1 {
-  height: 75px;
-  width: 75px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-}
-.input1{
+.lbgenaral{background-color:#4B77BE;
+  padding: 6px 10px ;
+  border-radius: 20px;
+  }
+
+.circledash{
   height:100px;
   width: 100px;
   color:  #eceef7;
-  background-color: #ff5c33;
+  background-color: #d35400;
   border-radius: 50%;
   border:10px solid #4B77BE ;
+  font-size-adjust: 20px;
+  padding: 25px;
+  font-size: 30px;
 }
 
 table.roundedtable{
@@ -92,6 +93,8 @@ table.roundedtable{
   background-color: #4B77BE;
   color:  #eceef7;
   padding: 200px 350px;
+  width:400px;
+  height: 250px;
 }
 table.roundedtable th{
 	border: 2px solid #eceef7;
@@ -101,7 +104,11 @@ table.roundedtable tr,td{
 	padding: 20px 30px;
 }
 
-div.dataTable_wapper{
-  width: 800px;
-  margin:0 auto;
-}
+.statelable{background-color:#d35400;
+  padding: 8px 8px ;
+  border-radius: 20px;
+  border: 1px solid black ;
+  font-size: 30px;
+  color:white;
+  }
+

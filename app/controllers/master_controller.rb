@@ -1,6 +1,8 @@
 class MasterController < ApplicationController
-  def index
+  def dashboard
   end
-  def dashboard1
+  def stateoverview
+  end
+  def zipoverview
   end
 end
